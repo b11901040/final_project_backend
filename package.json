@@ -14,7 +14,7 @@
     "install:prod": "yarn install --freeze-lockfile",
     "server": "nodemon src/index.js --ext js,graphql --exec babel-node",
     "deploy": "babel-node index.js",
-    "start": "babel-node index.js"
+    "start": "nodemon src/index.js --ext js,graphql --exec babel-node"
   },
   "devDependencies": {
     "@babel/cli": "^7.19.3",

@@ -13,7 +13,7 @@
   "scripts": {
     "install:prod": "yarn install --freeze-lockfile",
     "server": "nodemon src/index.js --ext js,graphql --exec babel-node",
-    "deploy": "babel-node index.js",
+    "deploy": "babel-node src/index.js",
     "start": "nodemon src/index.js --ext js,graphql --exec babel-node"
   },
   "devDependencies": {

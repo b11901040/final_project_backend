@@ -12,7 +12,7 @@
   },
   "scripts": {
     "server": "nodemon src/index.js --ext js,graphql --exec babel-node"
-   ,"deploy": "babel-node server.js"
+   ,"deploy": "babel-node index.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.19.3",
